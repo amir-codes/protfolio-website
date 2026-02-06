@@ -56,10 +56,6 @@ export default function Navbar() {
               className="inline-block h-10 w-10 rounded-full object-cover shadow-md ring-2 ring-[rgba(var(--border)_/_0.5)]"
               style={{ objectPosition: "center 30%" }}
             />
-
-            <span className="hidden sm:inline">
-              {profile.name.split(" ")[0]} {profile.name.split(" ")[1]}
-            </span>
           </button>
 
           <span className="hidden sm:inline">
